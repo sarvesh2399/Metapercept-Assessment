@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .navbar a, .navbar button {
+            margin-left: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .navbar button {
+            padding: 6px 12px;
+            border: 1px solid #333;
+            background-color: transparent;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .hero {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+        .hero button {
+            padding: 10px 20px;
+            background-color: white;
+            color: #0072ff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .classes-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .classes-section h2 {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .classes-section p {
+            color: #666;
+            font-size: 16px;
+        }
+        .classes-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .class-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .class-card img {
+            width: 100%;
+            height: 150px;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            background-color: #ddd;
+            display: block;
+        }
+        .class-card-content {
+            padding: 15px;
+        }
+        .class-card h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .class-card p {
+            margin: 10px 0;
+            color: #666;
+        }
+        .class-card button {
+            padding: 8px 16px;
+            background-color: #0072ff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #f0f0f0;
+            font-size: 14px;
+            color: #999;
+        }
+        .footer a {
+            color: #0072ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-title">Title</div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <button>Button</button>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas risus mi, egestas et imperdiet quis, tristique non mi.</p>
+        <button>Read More</button>
+    </div>
+
+    <div class="classes-section">
+        <h2>Classes</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas risus mi, egestas et imperdiet quis, tristique non mi.</p>
+    </div>
+
+    <div class="classes-container">
+        <!-- Class Cards -->
+        <div class="class-card">
+            <img src="#" alt="Add Image">
+            <div class="class-card-content">
+                <h3>Basic Technical Writing</h3>
+                <p>This course focuses on understanding the basics of technical writing and developing technical writing skills...</p>
+                <button>View</button>
+            </div>
+        </div>
+        <!-- Repeat similar card structure for other classes -->
+        <!-- Add more cards here as needed -->
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2021. All Rights Reserved. <a href="#">Back to top</a></p>
+    </div>
+
+</body>
+</html>
